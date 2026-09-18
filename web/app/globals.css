@@ -1,0 +1,103 @@
+:root {
+  --bg: #070b12;
+  --panel: #0d1420;
+  --panel-2: #111a2b;
+  --border: #1e2a42;
+  --text: #e8eef7;
+  --muted: #8b98ad;
+  --green: #00ffa7;
+  --red: #ff5c7a;
+  --blue: #5aa2ff;
+  --amber: #ffb020;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
+
+.hero { margin-bottom: 28px; }
+.hero .kicker {
+  display: inline-block;
+  font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--green); border: 1px solid var(--green);
+  border-radius: 999px; padding: 5px 12px; margin-bottom: 14px;
+}
+.hero h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: -0.5px; }
+.hero h1 .accent { color: var(--green); }
+.hero p { color: var(--muted); font-size: 16px; max-width: 720px; line-height: 1.55; margin: 0; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 24px 0; }
+.stat {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 14px 16px;
+}
+.stat .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+.stat .value { font-size: 24px; font-weight: 700; margin-top: 4px; }
+.stat .value.green { color: var(--green); }
+
+.filters {
+  display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  margin: 8px 0 20px;
+}
+.filters input[type="text"] {
+  background: var(--panel); border: 1px solid var(--border); color: var(--text);
+  border-radius: 8px; padding: 9px 12px; font-size: 14px; min-width: 240px;
+}
+.seg { display: flex; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button {
+  background: transparent; border: 0; color: var(--muted);
+  padding: 9px 16px; font-size: 14px; cursor: pointer;
+}
+.seg button.active { background: var(--panel-2); color: var(--text); font-weight: 600; }
+
+.signals { display: grid; gap: 14px; }
+.card {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 14px; padding: 18px 20px;
+}
+.card:hover { border-color: #2b3d63; }
+.card .q { font-size: 17px; font-weight: 650; margin: 0 0 4px; line-height: 1.4; }
+.card .meta { color: var(--muted); font-size: 13px; margin-bottom: 14px; }
+.card .meta a { color: var(--blue); text-decoration: none; }
+.card .meta a:hover { text-decoration: underline; }
+
+.side-badge {
+  display: inline-block; font-size: 12px; font-weight: 700;
+  border-radius: 6px; padding: 3px 10px; margin-right: 8px;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.side-badge.yes { background: rgba(0,255,167,.14); color: var(--green); border: 1px solid rgba(0,255,167,.4); }
+.side-badge.no { background: rgba(255,92,122,.12); color: var(--red); border: 1px solid rgba(255,92,122,.4); }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+.kv { background: var(--panel-2); border-radius: 10px; padding: 12px 14px; }
+.kv .k { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 6px; }
+.kv .v { font-size: 15px; font-weight: 600; }
+.kv .v .pos { color: var(--green); }
+.kv .v .neg { color: var(--red); }
+.kv .sub { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
+.strength { margin-top: 12px; }
+.strength .bar { height: 6px; background: #1a2438; border-radius: 999px; overflow: hidden; }
+.strength .fill { height: 100%; background: linear-gradient(90deg, #0a8f63, var(--green)); border-radius: 999px; }
+.strength .lbl { font-size: 12px; color: var(--muted); margin-top: 5px; }
+
+.method {
+  margin-top: 44px; background: var(--panel);
+  border: 1px solid var(--border); border-radius: 14px; padding: 22px 24px;
+}
+.method h2 { margin: 0 0 10px; font-size: 20px; }
+.method ol { color: var(--muted); line-height: 1.7; padding-left: 20px; margin: 0; }
+.method code { color: var(--green); font-size: 13px; }
+
+.footer { margin-top: 36px; color: var(--muted); font-size: 13px; text-align: center; line-height: 1.7; }
+.footer a { color: var(--blue); text-decoration: none; }
+.empty { text-align: center; color: var(--muted); padding: 60px 0; font-size: 16px; }
