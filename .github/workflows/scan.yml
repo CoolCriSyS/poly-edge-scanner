@@ -1,0 +1,40 @@
+name: Edge Scan
+
+# Runs the Polymarket Edge Scanner every 6 hours and commits fresh results.
+# Each scan logs ~150-250 real Nansen API calls against the key in secrets.
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run edge scan
+        env:
+          NANSEN_API_KEY: ${{ secrets.NANSEN_API_KEY }}
+        run: |
+          python scanner.py --markets 15 --min-position 25000 --out /tmp/scan.json
+          python - <<'EOF'
+          import json
+          d = json.load(open('/tmp/scan.json'))
+          json.dump(d, open('web/public/data/latest.json', 'w'), indent=1)
+          print(f"scan complete: {len(d['signals'])} signals, {d['api_calls']} api calls")
+          EOF
+
+      - name: Commit fresh data
+        run: |
+          git config user.name "edge-scanner-bot"
+          git config user.email "edge-scanner-bot@users.noreply.github.com"
+          git add web/public/data/latest.json
+          git diff --cached --quiet || git commit -m "chore: refresh edge scan data"
+          git push
