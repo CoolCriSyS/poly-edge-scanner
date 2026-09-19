@@ -8,13 +8,29 @@ const signed$ = (n) => (n == null ? "—" : (n < 0 ? "−" : "+") + fmt$(n));
 const shortAddr = (a) => (a ? a.slice(0, 6) + "…" + a.slice(-4) : "—");
 const polyLink = (id) => `https://polymarket.com/market/${id}`;
 
+// Data lives on the `data` branch (keeps scan refreshes off main so Vercel
+// doesn't rebuild); fall back to the bundled copy if the remote fetch fails.
+const DATA_URLS = [
+  "https://raw.githubusercontent.com/CoolCriSyS/poly-edge-scanner/data/web/public/data/latest.json",
+  "/data/latest.json",
+];
+const loadData = () => {
+  const attempt = (i) =>
+    i >= DATA_URLS.length
+      ? Promise.reject(new Error("data unavailable"))
+      : fetch(DATA_URLS[i])
+          .then((r) => { if (!r.ok) throw new Error("bad response"); return r.json(); })
+          .catch(() => attempt(i + 1));
+  return attempt(0);
+};
+
 export default function Page() {
   const [data, setData] = useState(null);
   const [side, setSide] = useState("all");
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("/data/latest.json").then((r) => r.json()).then(setData).catch(() => {});
+    loadData().then(setData).catch(() => {});
   }, []);
 
   const signals = useMemo(() => {
