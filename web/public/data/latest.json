@@ -1,22 +1,6 @@
 {
-  "scanned_at": "2026-09-20T02:04:04.544940+00:00",
-  "markets_scanned": 15,
-  "api_calls": 36,
-  "signals": [
-    {
-      "market_id": "1130012",
-      "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-      "end_time": "2026-09-30 00:00:00",
-      "side": "Yes",
-      "wallet": "0xf2f6af4f27ec2dcf4072095ab804016e14cd5817",
-      "position_value_usd": 241500.0,
-      "avg_entry": "0.7287",
-      "current_price": "0.805",
-      "unrealized_pnl_usd": 22900.0,
-      "wallet_alltime_pnl_usd": 1500000.0,
-      "wallet_win_rate": 0.556,
-      "wallet_markets_traded": 2000,
-      "edge_strength": 78576611.88
-    }
-  ]
+  "scanned_at": "2026-09-20T10:12:49.310478+00:00",
+  "markets_scanned": 0,
+  "api_calls": 1,
+  "signals": []
 }
