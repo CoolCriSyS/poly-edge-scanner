@@ -1,37 +1,6 @@
 {
-  "scanned_at": "2026-09-22T02:10:44.900684+00:00",
-  "markets_scanned": 15,
-  "api_calls": 26,
-  "signals": [
-    {
-      "market_id": "3512682",
-      "question": "Giants vs. Rams",
-      "end_time": "2026-09-22 00:15:00",
-      "side": "Rams",
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "position_value_usd": 378600.0,
-      "avg_entry": "0.73",
-      "current_price": "0.9465",
-      "unrealized_pnl_usd": 86600.0,
-      "wallet_alltime_pnl_usd": 5700000.0,
-      "wallet_win_rate": 0.548,
-      "wallet_markets_traded": 9700,
-      "edge_strength": 368303376.22
-    },
-    {
-      "market_id": "3512682",
-      "question": "Giants vs. Rams",
-      "end_time": "2026-09-22 00:15:00",
-      "side": "Rams",
-      "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
-      "position_value_usd": 347100.0,
-      "avg_entry": "0.72",
-      "current_price": "0.9465",
-      "unrealized_pnl_usd": 83100.0,
-      "wallet_alltime_pnl_usd": 1300000.0,
-      "wallet_win_rate": 0.53,
-      "wallet_markets_traded": 541,
-      "edge_strength": 55334309.62
-    }
-  ]
+  "scanned_at": "2026-09-22T10:28:21.021268+00:00",
+  "markets_scanned": 0,
+  "api_calls": 1,
+  "signals": []
 }
