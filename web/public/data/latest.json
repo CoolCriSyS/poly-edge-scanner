@@ -1,6 +1,37 @@
 {
-  "scanned_at": "2026-09-22T20:35:36.331137+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-09-23T02:10:10.230783+00:00",
+  "markets_scanned": 15,
+  "api_calls": 34,
+  "signals": [
+    {
+      "market_id": "4613531",
+      "question": "Cincinnati Reds vs. Atlanta Braves",
+      "end_time": "2026-09-29 23:15:00",
+      "side": "Cincinnati Reds",
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "position_value_usd": 1400000.0,
+      "avg_entry": "0.295015",
+      "current_price": "0.9995",
+      "unrealized_pnl_usd": 974800.0,
+      "wallet_alltime_pnl_usd": 6200000.0,
+      "wallet_win_rate": 0.548,
+      "wallet_markets_traded": 9700,
+      "edge_strength": 441399155.57
+    },
+    {
+      "market_id": "4613531",
+      "question": "Cincinnati Reds vs. Atlanta Braves",
+      "end_time": "2026-09-29 23:15:00",
+      "side": "Cincinnati Reds",
+      "wallet": "0x336bf6f91a4619d54f0711a20fe468adf4d71233",
+      "position_value_usd": 207400.0,
+      "avg_entry": "0.294",
+      "current_price": "0.9995",
+      "unrealized_pnl_usd": 146400.0,
+      "wallet_alltime_pnl_usd": 555900.0,
+      "wallet_win_rate": 0.484,
+      "wallet_markets_traded": 1600,
+      "edge_strength": 24303575.52
+    }
+  ]
 }
