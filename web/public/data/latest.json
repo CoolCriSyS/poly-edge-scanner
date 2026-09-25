@@ -1,52 +1,6 @@
 {
-  "scanned_at": "2026-09-25T02:13:37.496156+00:00",
-  "markets_scanned": 15,
-  "api_calls": 20,
-  "signals": [
-    {
-      "market_id": "3580763",
-      "question": "Falcons vs. Packers",
-      "end_time": "2026-09-25 00:15:00",
-      "side": "Falcons",
-      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
-      "position_value_usd": 28900.0,
-      "avg_entry": "0.31",
-      "current_price": "0.585",
-      "unrealized_pnl_usd": 13600.0,
-      "wallet_alltime_pnl_usd": 6800000.0,
-      "wallet_win_rate": 0.548,
-      "wallet_markets_traded": 9800,
-      "edge_strength": 351767522.02
-    },
-    {
-      "market_id": "3580763",
-      "question": "Falcons vs. Packers",
-      "end_time": "2026-09-25 00:15:00",
-      "side": "Falcons",
-      "wallet": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
-      "position_value_usd": 32500.0,
-      "avg_entry": "0.309863",
-      "current_price": "0.585",
-      "unrealized_pnl_usd": 15300.0,
-      "wallet_alltime_pnl_usd": 1400000.0,
-      "wallet_win_rate": 0.516,
-      "wallet_markets_traded": 39700,
-      "edge_strength": 79471777.02
-    },
-    {
-      "market_id": "3580763",
-      "question": "Falcons vs. Packers",
-      "end_time": "2026-09-25 00:15:00",
-      "side": "Packers",
-      "wallet": "0x2f983f2a36c462320331eff6901db9307d1abd4c",
-      "position_value_usd": 39100.0,
-      "avg_entry": "0.69",
-      "current_price": "0.415",
-      "unrealized_pnl_usd": -25900.0,
-      "wallet_alltime_pnl_usd": 17800.0,
-      "wallet_win_rate": 0.636,
-      "wallet_markets_traded": 44,
-      "edge_strength": 455676.7
-    }
-  ]
+  "scanned_at": "2026-09-25T10:43:04.923761+00:00",
+  "markets_scanned": 0,
+  "api_calls": 1,
+  "signals": []
 }
