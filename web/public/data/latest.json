@@ -1,6 +1,52 @@
 {
-  "scanned_at": "2026-09-27T20:32:20.890341+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-09-28T02:18:57.066938+00:00",
+  "markets_scanned": 15,
+  "api_calls": 41,
+  "signals": [
+    {
+      "market_id": "3664837",
+      "question": "Rams vs. Broncos",
+      "end_time": "2026-09-28 00:20:00",
+      "side": "Broncos",
+      "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+      "position_value_usd": 120900.0,
+      "avg_entry": "0.491902",
+      "current_price": "0.235",
+      "unrealized_pnl_usd": -132100.0,
+      "wallet_alltime_pnl_usd": 3500000.0,
+      "wallet_win_rate": 0.438,
+      "wallet_markets_traded": 878,
+      "edge_strength": 121613305.65
+    },
+    {
+      "market_id": "3664837",
+      "question": "Rams vs. Broncos",
+      "end_time": "2026-09-28 00:20:00",
+      "side": "Rams",
+      "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "position_value_usd": 790600.0,
+      "avg_entry": "0.5032",
+      "current_price": "0.765",
+      "unrealized_pnl_usd": 270600.0,
+      "wallet_alltime_pnl_usd": 2000000.0,
+      "wallet_win_rate": 0.532,
+      "wallet_markets_traded": 556,
+      "edge_strength": 91359195.04
+    },
+    {
+      "market_id": "3664837",
+      "question": "Rams vs. Broncos",
+      "end_time": "2026-09-28 00:20:00",
+      "side": "Broncos",
+      "wallet": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+      "position_value_usd": 128500.0,
+      "avg_entry": "0.5",
+      "current_price": "0.235",
+      "unrealized_pnl_usd": -144900.0,
+      "wallet_alltime_pnl_usd": 1500000.0,
+      "wallet_win_rate": 0.568,
+      "wallet_markets_traded": 396,
+      "edge_strength": 59974992.04
+    }
+  ]
 }
