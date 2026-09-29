@@ -1,6 +1,52 @@
 {
-  "scanned_at": "2026-09-28T22:42:16.993998+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-09-29T03:03:43.159957+00:00",
+  "markets_scanned": 15,
+  "api_calls": 27,
+  "signals": [
+    {
+      "market_id": "3695205",
+      "question": "Eagles vs. Bears",
+      "end_time": "2026-09-29 00:15:00",
+      "side": "Bears",
+      "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+      "position_value_usd": 138500.0,
+      "avg_entry": "0.358492",
+      "current_price": "0.805",
+      "unrealized_pnl_usd": 76800.0,
+      "wallet_alltime_pnl_usd": 4800000.0,
+      "wallet_win_rate": 0.442,
+      "wallet_markets_traded": 890,
+      "edge_strength": 170602251.31
+    },
+    {
+      "market_id": "3695205",
+      "question": "Eagles vs. Bears",
+      "end_time": "2026-09-29 00:15:00",
+      "side": "Eagles",
+      "wallet": "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+      "position_value_usd": 25300.0,
+      "avg_entry": "0.639983",
+      "current_price": "0.195",
+      "unrealized_pnl_usd": -57800.0,
+      "wallet_alltime_pnl_usd": 1600000.0,
+      "wallet_win_rate": 0.531,
+      "wallet_markets_traded": 2000,
+      "edge_strength": 65476608.85
+    },
+    {
+      "market_id": "3695205",
+      "question": "Eagles vs. Bears",
+      "end_time": "2026-09-29 00:15:00",
+      "side": "Bears",
+      "wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+      "position_value_usd": 115000.0,
+      "avg_entry": "0.35",
+      "current_price": "0.805",
+      "unrealized_pnl_usd": 65000.0,
+      "wallet_alltime_pnl_usd": 379700.0,
+      "wallet_win_rate": 0.549,
+      "wallet_markets_traded": 5000,
+      "edge_strength": 20689312.39
+    }
+  ]
 }
