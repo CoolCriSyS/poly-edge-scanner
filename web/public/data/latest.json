@@ -1,6 +1,67 @@
 {
-  "scanned_at": "2026-09-29T21:36:20.267712+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-09-30T02:44:44.184057+00:00",
+  "markets_scanned": 15,
+  "api_calls": 24,
+  "signals": [
+    {
+      "market_id": "4978475",
+      "question": "Boston Red Sox vs. New York Yankees",
+      "end_time": "2026-10-07 00:00:00",
+      "side": "New York Yankees",
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "position_value_usd": 43600.0,
+      "avg_entry": "0.788144",
+      "current_price": "0.845",
+      "unrealized_pnl_usd": 2900.0,
+      "wallet_alltime_pnl_usd": 2900000.0,
+      "wallet_win_rate": 0.478,
+      "wallet_markets_traded": 69600,
+      "edge_strength": 165123203.1
+    },
+    {
+      "market_id": "4978475",
+      "question": "Boston Red Sox vs. New York Yankees",
+      "end_time": "2026-10-07 00:00:00",
+      "side": "New York Yankees",
+      "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "position_value_usd": 105600.0,
+      "avg_entry": "0.541349",
+      "current_price": "0.845",
+      "unrealized_pnl_usd": 38000.0,
+      "wallet_alltime_pnl_usd": 1300000.0,
+      "wallet_win_rate": 0.533,
+      "wallet_markets_traded": 561,
+      "edge_strength": 50747414.58
+    },
+    {
+      "market_id": "4978475",
+      "question": "Boston Red Sox vs. New York Yankees",
+      "end_time": "2026-10-07 00:00:00",
+      "side": "New York Yankees",
+      "wallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+      "position_value_usd": 53600.0,
+      "avg_entry": "0.543496",
+      "current_price": "0.845",
+      "unrealized_pnl_usd": 19100.0,
+      "wallet_alltime_pnl_usd": 217200.0,
+      "wallet_win_rate": 0.655,
+      "wallet_markets_traded": 2400,
+      "edge_strength": 12058263.66
+    },
+    {
+      "market_id": "4978475",
+      "question": "Boston Red Sox vs. New York Yankees",
+      "end_time": "2026-10-07 00:00:00",
+      "side": "New York Yankees",
+      "wallet": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+      "position_value_usd": 37400.0,
+      "avg_entry": "0.54",
+      "current_price": "0.845",
+      "unrealized_pnl_usd": 13500.0,
+      "wallet_alltime_pnl_usd": 14200.0,
+      "wallet_win_rate": 0.426,
+      "wallet_markets_traded": 7100,
+      "edge_strength": 564844.6
+    }
+  ]
 }
