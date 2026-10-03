@@ -1,6 +1,67 @@
 {
-  "scanned_at": "2026-10-02T21:31:00.609165+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-10-03T02:39:59.246517+00:00",
+  "markets_scanned": 15,
+  "api_calls": 32,
+  "signals": [
+    {
+      "market_id": "2589812",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "end_time": "2026-10-29 03:59:00",
+      "side": "Yes",
+      "wallet": "0x7cf93583951552553bc0d243a8582a3410ed2798",
+      "position_value_usd": 530400.0,
+      "avg_entry": "0.470167",
+      "current_price": "0.825",
+      "unrealized_pnl_usd": 228100.0,
+      "wallet_alltime_pnl_usd": 300800.0,
+      "wallet_win_rate": 0.716,
+      "wallet_markets_traded": 74,
+      "edge_strength": 12256971.28
+    },
+    {
+      "market_id": "2589812",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "end_time": "2026-10-29 03:59:00",
+      "side": "No",
+      "wallet": "0x7cf93583951552553bc0d243a8582a3410ed2798",
+      "position_value_usd": 94000.0,
+      "avg_entry": "0.348109",
+      "current_price": "0.175",
+      "unrealized_pnl_usd": -93000.0,
+      "wallet_alltime_pnl_usd": 300800.0,
+      "wallet_win_rate": 0.716,
+      "wallet_markets_traded": 74,
+      "edge_strength": 10647992.13
+    },
+    {
+      "market_id": "2589812",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "end_time": "2026-10-29 03:59:00",
+      "side": "Yes",
+      "wallet": "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+      "position_value_usd": 468100.0,
+      "avg_entry": "0.678002",
+      "current_price": "0.825",
+      "unrealized_pnl_usd": 83400.0,
+      "wallet_alltime_pnl_usd": 63800.0,
+      "wallet_win_rate": 0.696,
+      "wallet_markets_traded": 771,
+      "edge_strength": 3854872.32
+    },
+    {
+      "market_id": "2589812",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "end_time": "2026-10-29 03:59:00",
+      "side": "No",
+      "wallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
+      "position_value_usd": 163500.0,
+      "avg_entry": "0.476507",
+      "current_price": "0.175",
+      "unrealized_pnl_usd": -281800.0,
+      "wallet_alltime_pnl_usd": 15600.0,
+      "wallet_win_rate": 0.302,
+      "wallet_markets_traded": 1400,
+      "edge_strength": 409744.56
+    }
+  ]
 }
