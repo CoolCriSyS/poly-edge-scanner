@@ -1,6 +1,37 @@
 {
-  "scanned_at": "2026-10-03T20:17:40.135209+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-10-04T03:10:56.717498+00:00",
+  "markets_scanned": 15,
+  "api_calls": 26,
+  "signals": [
+    {
+      "market_id": "4819769",
+      "question": "Washington vs. USC",
+      "end_time": "2026-10-03 23:30:00",
+      "side": "USC",
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "position_value_usd": 304000.0,
+      "avg_entry": "0.694278",
+      "current_price": "0.995",
+      "unrealized_pnl_usd": 91900.0,
+      "wallet_alltime_pnl_usd": 6500000.0,
+      "wallet_win_rate": 0.547,
+      "wallet_markets_traded": 10400,
+      "edge_strength": 415193319.27
+    },
+    {
+      "market_id": "4819769",
+      "question": "Washington vs. USC",
+      "end_time": "2026-10-03 23:30:00",
+      "side": "USC",
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "position_value_usd": 210700.0,
+      "avg_entry": "0.737006",
+      "current_price": "0.995",
+      "unrealized_pnl_usd": 54600.0,
+      "wallet_alltime_pnl_usd": 2600000.0,
+      "wallet_win_rate": 0.478,
+      "wallet_markets_traded": 71200,
+      "edge_strength": 170218896.47
+    }
+  ]
 }
