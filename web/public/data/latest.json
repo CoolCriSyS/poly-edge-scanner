@@ -1,6 +1,52 @@
 {
-  "scanned_at": "2026-10-08T22:35:10.893727+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-10-09T03:25:59.247564+00:00",
+  "markets_scanned": 15,
+  "api_calls": 34,
+  "signals": [
+    {
+      "market_id": "3951230",
+      "question": "Buccaneers vs. Cowboys",
+      "end_time": "2026-10-09 00:15:00",
+      "side": "Buccaneers",
+      "wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "position_value_usd": 139900.0,
+      "avg_entry": "0.229949",
+      "current_price": "0.765",
+      "unrealized_pnl_usd": 97800.0,
+      "wallet_alltime_pnl_usd": 5800000.0,
+      "wallet_win_rate": 0.546,
+      "wallet_markets_traded": 10800,
+      "edge_strength": 348485614.23
+    },
+    {
+      "market_id": "3951230",
+      "question": "Buccaneers vs. Cowboys",
+      "end_time": "2026-10-09 00:15:00",
+      "side": "Buccaneers",
+      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "position_value_usd": 259800.0,
+      "avg_entry": "0.181821",
+      "current_price": "0.765",
+      "unrealized_pnl_usd": 198000.0,
+      "wallet_alltime_pnl_usd": 4000000.0,
+      "wallet_win_rate": 0.477,
+      "wallet_markets_traded": 73300,
+      "edge_strength": 266484562.77
+    },
+    {
+      "market_id": "3951230",
+      "question": "Buccaneers vs. Cowboys",
+      "end_time": "2026-10-09 00:15:00",
+      "side": "Cowboys",
+      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+      "position_value_usd": 107400.0,
+      "avg_entry": "0.714258",
+      "current_price": "0.235",
+      "unrealized_pnl_usd": -219100.0,
+      "wallet_alltime_pnl_usd": 1900000.0,
+      "wallet_win_rate": 0.534,
+      "wallet_markets_traded": 592,
+      "edge_strength": 75048100.87
+    }
+  ]
 }
