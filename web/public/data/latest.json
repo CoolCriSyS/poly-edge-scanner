@@ -1,6 +1,37 @@
 {
-  "scanned_at": "2026-10-09T21:57:02.255279+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-10-10T03:05:03.938859+00:00",
+  "markets_scanned": 15,
+  "api_calls": 34,
+  "signals": [
+    {
+      "market_id": "601819",
+      "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "end_time": "2026-10-05 03:59:00",
+      "side": "Yes",
+      "wallet": "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+      "position_value_usd": 66100.0,
+      "avg_entry": "0.602168",
+      "current_price": "0.115",
+      "unrealized_pnl_usd": -280000.0,
+      "wallet_alltime_pnl_usd": 1300000.0,
+      "wallet_win_rate": 0.634,
+      "wallet_markets_traded": 1200,
+      "edge_strength": 64865839.49
+    },
+    {
+      "market_id": "601819",
+      "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "end_time": "2026-10-05 03:59:00",
+      "side": "No",
+      "wallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+      "position_value_usd": 338400.0,
+      "avg_entry": "0.784366",
+      "current_price": "0.885",
+      "unrealized_pnl_usd": 38500.0,
+      "wallet_alltime_pnl_usd": 897600.0,
+      "wallet_win_rate": 0.777,
+      "wallet_markets_traded": 466,
+      "edge_strength": 54577779.97
+    }
+  ]
 }
