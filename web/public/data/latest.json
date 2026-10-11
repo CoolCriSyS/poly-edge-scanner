@@ -1,6 +1,52 @@
 {
-  "scanned_at": "2026-10-10T20:48:10.400034+00:00",
-  "markets_scanned": 0,
-  "api_calls": 1,
-  "signals": []
+  "scanned_at": "2026-10-11T02:36:12.257360+00:00",
+  "markets_scanned": 15,
+  "api_calls": 24,
+  "signals": [
+    {
+      "market_id": "5101510",
+      "question": "Georgia vs. Alabama",
+      "end_time": "2026-10-10 23:30:00",
+      "side": "Alabama",
+      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+      "position_value_usd": 440800.0,
+      "avg_entry": "0.530196",
+      "current_price": "0.565",
+      "unrealized_pnl_usd": 27200.0,
+      "wallet_alltime_pnl_usd": 1900000.0,
+      "wallet_win_rate": 0.54,
+      "wallet_markets_traded": 846,
+      "edge_strength": 89895548.61
+    },
+    {
+      "market_id": "5101510",
+      "question": "Georgia vs. Alabama",
+      "end_time": "2026-10-10 23:30:00",
+      "side": "Georgia",
+      "wallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+      "position_value_usd": 55600.0,
+      "avg_entry": "0.460152",
+      "current_price": "0.435",
+      "unrealized_pnl_usd": -3200.0,
+      "wallet_alltime_pnl_usd": 1900000.0,
+      "wallet_win_rate": 0.54,
+      "wallet_markets_traded": 846,
+      "edge_strength": 75574676.03
+    },
+    {
+      "market_id": "5101510",
+      "question": "Georgia vs. Alabama",
+      "end_time": "2026-10-10 23:30:00",
+      "side": "Georgia",
+      "wallet": "0xf28e42d20e4826f2b10a24bc952001697947cab2",
+      "position_value_usd": 70900.0,
+      "avg_entry": "0.492932",
+      "current_price": "0.435",
+      "unrealized_pnl_usd": -9400.0,
+      "wallet_alltime_pnl_usd": 1200000.0,
+      "wallet_win_rate": 0.522,
+      "wallet_markets_traded": 1700,
+      "edge_strength": 52045176.83
+    }
+  ]
 }
